@@ -9,6 +9,6 @@ function sendMessage(event) {
       return;
   }
 
-  const url = `https://wa.me/+556194224736?text=Olá,%20me%20chamo%20${encodeURIComponent(name)}.%0A%0A${encodeURIComponent(message)}`;
+  const url = `https://wa.me/+556193672357?text=Olá,%20me%20chamo%20${encodeURIComponent(name)}.%0A%0A${encodeURIComponent(message)}`;
   window.location.href = url;
 }
